@@ -1,0 +1,44 @@
+问：给定任一组数据，请按从小到大<b>排序</b>。假设数组是[3,2,4,5,1,6]，请排序。
+
+<table>
+    <thead>
+        <tr>
+            <td></td>
+            <td>最好时间复杂度</td>
+            <td>最坏时间复杂度</td>
+            <td>平均时间复杂度</td>
+            <td>是否稳定的排序算法</td>
+            <td>是否原地排序算法</td>
+            <td>空间复杂度</td>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>冒泡排序</td>
+            <td>O(n)</td>
+            <td>O(n^2)</td>
+            <td>O(n^2)</td>
+            <td>是</td>
+            <td>是</td>
+            <td>O(1)</td>
+        </tr>
+        <tr>
+            <td>插入排序</td>
+            <td>O(n)</td>
+            <td>O(n^2)</td>
+            <td>O(n^2)</td>
+            <td>是</td>
+            <td>是</td>
+            <td>O(1)</td>
+        </tr>
+        <tr>
+            <td>选择排序</td>
+            <td>O(n^2)</td>
+            <td>O(n^2)</td>
+            <td>O(n^2)</td>
+            <td>否</td>
+            <td>是</td>
+            <td>O(1)</td>
+        </tr>
+    </tbody>
+</table>
